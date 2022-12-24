@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Backkground
+    uniqueID: 3487266089
+    locked: 0
+  - name: Water or Ground
+    uniqueID: 3001013813
+    locked: 0
+  - name: Ships
+    uniqueID: 1355604271
+    locked: 0
+  - name: UI
+    uniqueID: 1438381985
+    locked: 0

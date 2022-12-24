@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecae467938aa1a44bbde9afbef4e3b3c
+guid: 785fce7bb78e2c44b92ef7938d2c6aa7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,34 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bDSN4BW_0
+      name: Ships1_0
       rect:
         serializedVersion: 2
-        x: 349
-        y: 804
-        width: 287
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 220631507f5e33545bdb665d1a046c9a
-      internalID: 1922992781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bDSN4BW_1
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 804
-        width: 229
-        height: 46
+        x: 39
+        y: 27
+        width: 240
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,29 +142,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4dc38035e25a90448c7255089424faa
-      internalID: 1345117302
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bDSN4BW_2
-      rect:
-        serializedVersion: 2
-        x: 907
-        y: 804
-        width: 315
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a456ffa4c9eb4c4193671762506e0a4
-      internalID: -1492958898
+      spriteID: 19fbfb19ad6205f4895462d0023d98ba
+      internalID: 1398939335
       vertices: []
       indices: 
       edges: []
@@ -201,12 +159,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bDSN4BW_2: -1492958898
-      bDSN4BW_1: 1345117302
-      bDSN4BW_0: 1922992781
+      Ships1_0: 1398939335
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

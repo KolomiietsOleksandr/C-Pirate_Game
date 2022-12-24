@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecae467938aa1a44bbde9afbef4e3b3c
+guid: 5f581b88620f55b4e960830839b9feb3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,34 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bDSN4BW_0
+      name: Islands_0
       rect:
         serializedVersion: 2
-        x: 349
-        y: 804
-        width: 287
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 220631507f5e33545bdb665d1a046c9a
-      internalID: 1922992781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bDSN4BW_1
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 804
-        width: 229
-        height: 46
+        x: 18
+        y: 42
+        width: 687
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4dc38035e25a90448c7255089424faa
-      internalID: 1345117302
+      spriteID: 0984a4d598f144040a4d6d6b450656aa
+      internalID: -1970600651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bDSN4BW_2
+      name: Islands_1
       rect:
         serializedVersion: 2
-        x: 907
-        y: 804
-        width: 315
-        height: 47
+        x: 774
+        y: 42
+        width: 960
+        height: 141
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +163,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a456ffa4c9eb4c4193671762506e0a4
-      internalID: -1492958898
+      spriteID: ea372b401e0dc444197a2f30b5ca0e46
+      internalID: -39373751
       vertices: []
       indices: 
       edges: []
@@ -201,12 +180,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bDSN4BW_2: -1492958898
-      bDSN4BW_1: 1345117302
-      bDSN4BW_0: 1922992781
+      Islands_1: -39373751
+      Islands_0: -1970600651
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

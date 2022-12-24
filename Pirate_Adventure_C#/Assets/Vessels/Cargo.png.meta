@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ecae467938aa1a44bbde9afbef4e3b3c
+guid: 32d6863e5c6c07a438e32fc00a5afce7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -128,34 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bDSN4BW_0
+      name: Cargo_0
       rect:
         serializedVersion: 2
-        x: 349
-        y: 804
-        width: 287
-        height: 65
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 220631507f5e33545bdb665d1a046c9a
-      internalID: 1922992781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bDSN4BW_1
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 804
-        width: 229
-        height: 46
+        x: 0
+        y: 0
+        width: 30
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4dc38035e25a90448c7255089424faa
-      internalID: 1345117302
+      spriteID: 4d7e044e71e44f4468179bed892f8c59
+      internalID: 606088677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bDSN4BW_2
+      name: Cargo_1
       rect:
         serializedVersion: 2
-        x: 907
-        y: 804
-        width: 315
-        height: 47
+        x: 39
+        y: 0
+        width: 45
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +163,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a456ffa4c9eb4c4193671762506e0a4
-      internalID: -1492958898
+      spriteID: cfb28d364038fb64cb4d136ca1105bb7
+      internalID: -1092287330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cargo_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c13cbc9584841547b11f59f31b38043
+      internalID: 461883008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cargo_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 0
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8214c09c3f1fab4f9c02b7fab44ed3f
+      internalID: 1708759692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cargo_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 45
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acffd51c9649254a89a4514aba2362e
+      internalID: -150772821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cargo_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3a72844ae407b43934beb6ee51cb5c
+      internalID: -1637264108
       vertices: []
       indices: 
       edges: []
@@ -201,12 +264,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      bDSN4BW_2: -1492958898
-      bDSN4BW_1: 1345117302
-      bDSN4BW_0: 1922992781
+      Cargo_2: 461883008
+      Cargo_0: 606088677
+      Cargo_3: 1708759692
+      Cargo_1: -1092287330
+      Cargo_4: -150772821
+      Cargo_5: -1637264108
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
