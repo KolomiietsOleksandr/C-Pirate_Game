@@ -26,7 +26,7 @@ public class VesselsData : MonoBehaviour
     {
         GameLogic gameLogic = GameObject.Find("EventManager").GetComponent<GameLogic>();
         EnemyShip enemyShip = GameObject.FindWithTag("EnemyVessel").GetComponent<EnemyShip>();
-        if (Cannon != 0 && SceneManager.GetActiveScene().name == "Battle") && gameLogic.selectedEvent == "Fight")
+        if (Cannon != 0 && SceneManager.GetActiveScene().name == "Battle" && gameLogic.selectedEvent == "Fight")
         {
             enemyShip.health -= CannonDamage * Cannon;
 

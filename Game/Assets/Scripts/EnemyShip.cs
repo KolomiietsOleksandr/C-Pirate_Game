@@ -1,5 +1,6 @@
 using UnityEngine;
 using static GameLogic;
+using UnityEngine.SceneManagement;
 
 public class EnemyShip : MonoBehaviour
 {
@@ -26,14 +27,15 @@ public class EnemyShip : MonoBehaviour
     public void CannonShootEnemy()
     {
         GameLogic gameLogic = GameObject.Find("EventManager").GetComponent<GameLogic>();
-        VesselsData vesselsData = GameObject.FindWithTag("EnemyVessel").GetComponent<EnemyShip>();
-        if (Cannon != 0 && SceneManager.GetActiveScene().name == "Battle") && gameLogic.selectedEvent == "Fight")
+        GameObject enemyVesselGO = GameObject.FindWithTag("EnemyVessel");
+        VesselsData vesselsData = enemyVesselGO.GetComponent<VesselsData>();
+        if (Cannon != 0 && SceneManager.GetActiveScene().name == "Battle" && gameLogic.selectedEvent == "Fight")
         {
-            VesselsData.VesselHealth -= CannonDamage * Cannon;
+            vesselsData.VesselHealth -= CannonDamage * Cannon;
 
-            if (VesselsData.VesselHealth == 0)
+            if (vesselsData.VesselHealth == 0)
             {
-                Destroy(VesselsData.gameObject);
+                Destroy(enemyVesselGO);
             }
         }
     }

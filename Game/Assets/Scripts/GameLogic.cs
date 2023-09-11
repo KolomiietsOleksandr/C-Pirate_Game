@@ -482,17 +482,6 @@ public class GameLogic : MonoBehaviour
         {
             Destroy(MainCamera);
         }
-        /*
-        if (persistentPlayerVessel == null)
-        {
-            persistentPlayerVessel = PlayerVessel;
-            DontDestroyOnLoad(PlayerVessel);
-        }
-        else
-        {
-            Destroy(PlayerVessel);
-        }
-        */
     }
 
 
