@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6480023510380786308
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6480023510380786316}
+  - component: {fileID: 6480023510380786307}
+  - component: {fileID: 6480023510380786306}
+  - component: {fileID: 6480023510380786305}
+  - component: {fileID: 6480023510380786304}
+  - component: {fileID: 6480023510380786311}
+  - component: {fileID: 6480023510380786310}
+  - component: {fileID: 6480023510380786309}
+  - component: {fileID: 6480023510380786318}
+  - component: {fileID: 6480023510380786317}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: GameController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6480023510380786316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480023510380786308}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6480023510380786307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480023510380786308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!114 &6480023510380786306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480023510380786308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &6480023510380786305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480023510380786308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6a8d033de1ddf24380cf564d7c67d0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventText: {fileID: 0}
+  nothingChance: 0.6
+  enemyVesselChance: 0.2
+  merchantShipChance: 0.1
+  BottleMapChance: 0.1
+  PassivePhrases:
+  - Nothing happens...
+  - Yo-ho-ho and a bottle of rum
+  - I wonder what's over the horizon?
+  - Nothing happens...
+  - I can't wait to get down on the ground...
+  - Now to drink rum and enjoy a girl
+  - Nothing happens...
+  - Nothing happens...
+  - Oh, the seagulls crap on the helm
+  - Nothing happens...
+  enemyVesselPrefab:
+  - {fileID: 2403051667534046555, guid: a543b4715afa7ac468cc47536bca2dba, type: 3}
+  - {fileID: 1786194663625292, guid: 77edff7e7079cc048b0ec19385b1cae2, type: 3}
+  enemyPrefab:
+  - {fileID: 5840823225395843790, guid: 63bde6f2ebb900f4eaf77a12672e9c8b, type: 3}
+  - {fileID: 3526062201270719218, guid: 373932410fa5bac4e85bf0c67d356ea9, type: 3}
+  - {fileID: 4132513096892066040, guid: eda85297a2c05954d9ec3b2c2c9c4e13, type: 3}
+  - {fileID: 191493943522316831, guid: bc52d1fac86527245bee392f1b374fe4, type: 3}
+  - {fileID: 8514762188914758765, guid: 5065d5611be8bed4ca94a360b96a001b, type: 3}
+  - {fileID: 8613019564369642062, guid: 14d38a4c49df3ac4398d19e8021cdbfa, type: 3}
+  TreasureMaps:
+  - {fileID: 456271892328008699, guid: 110cb0df07351494085b296b822ea8d5, type: 3}
+  - {fileID: 5979808452982135363, guid: da33d4aa6ca6601448f48e827d4dab72, type: 3}
+  - {fileID: 7539817352325894707, guid: 778e49feb6232a34b872652fb522c667, type: 3}
+  IslandsPrefab: {fileID: 3435144929710582807, guid: 2e53e12960f5d5949b19a0c594f492f0, type: 3}
+  MerchantShipPrefab: {fileID: 8369514737925176668, guid: e6ffe7538b46214479ce465ba632d372, type: 3}
+  UiController: {fileID: 6480023510380786304}
+  selectedEvent: Pier
+  Canvas: {fileID: 0}
+  EventMenager: {fileID: 6480023510380786308}
+  MainCamera: {fileID: 0}
+  Square: {fileID: 0}
+  PreFight: 0
+  AfterIsland: 0
+--- !u!114 &6480023510380786304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480023510380786308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f94286a1ead4ba74fae3d0d23e941579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SailButton: {fileID: 0}
+  DockButton: {fileID: 0}
+  InventoryButton: {fileID: 0}
+  EscapeButton: {fileID: 0}
+  FightButton: {fileID: 0}
+  BoardButton: {fileID: 0}
+  ShopButton: {fileID: 0}
+  SearchButton: {fileID: 0}
+  DefendButton: {fileID: 0}
+  InteractionsButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &6480023510380786311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480023510380786308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f6793bdd5044948b65c6ad01667292, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Time_Text: {fileID: 0}
+--- !u!114 &6480023510380786310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480023510380786308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b742b32c1a7eb154bbd1eb61819b7fa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 0
+  health: 300
+  damage: 78
+  armor: 0
+  maxHealth: 300
+  energy: 50
+  maxEnergy: 50
+  luck: 0
+  Hunger: 0
+  Thirst: 0
+  MaxAttempts: 10
+  MaxHunger: 0
+  MaxThirst: 0
+  ThirstForStep: 0
+  HungerForStep: 0
+  EnergyForAttack: 10
+  CriticalMultiplier: 2
+  CriticalChance: 40
+  currentShipPrefab:
+  - {fileID: 8689865924557770875, guid: dce7028c36c59e347983e870e14b8d4b, type: 3}
+  PlayerPrefab: {fileID: 529474032733709985, guid: 36da2b3ed883cc1468369359ec14f780, type: 3}
+  money: 7755
+  experience: 0
+  escapeChance: 1
+  levelText: {fileID: 0}
+  healthText: {fileID: 0}
+  moneyText: {fileID: 0}
+  energyText: {fileID: 0}
+  hungerText: {fileID: 0}
+  thirstText: {fileID: 0}
+  experienceSlider: {fileID: 0}
+  CurrentAnimator: {fileID: 9100000, guid: 74b5b416858bde1499b7298bdfec94d8, type: 2}
+  animators:
+  - {fileID: 9100000, guid: 74b5b416858bde1499b7298bdfec94d8, type: 2}
+  - {fileID: 9100000, guid: ad8cc765181c0be4984788808395ea1c, type: 2}
+  - {fileID: 9100000, guid: 6aeae81612952fd4fac0d9a976100ed2, type: 2}
+  baseExperience: 150
+--- !u!114 &6480023510380786309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480023510380786308}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd5d15bee4f39c4c8add81bc173b0fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerStep: 1
+  EnemyStep: 0
+  CriticalBoolPl: 0
+  CriticalBoolEn: 0
+  spawnItem: {fileID: 0}
+  inventoryManager: {fileID: 0}
+  EnFightPos: {x: 0, y: 0, z: 0}
+  speed: 0.01
+  progressMove: 0
+  progressMovePreFight: 0
+  IsMove: 0
+  eventText: {fileID: 0}
+  EnemyNum: 1
+  UiController: {fileID: 6480023510380786304}
+--- !u!82 &6480023510380786318
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480023510380786308}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &6480023510380786317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6480023510380786308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 315ad9ac36ef72f4997a5c78351d3392, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 6480023510380786318}
+  soundClickHit: {fileID: 8300000, guid: 56f3c645203a6134695b27fe1f6b7903, type: 3}

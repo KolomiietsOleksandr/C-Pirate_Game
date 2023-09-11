@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd2bedb2ec4d5e48b389f674f9b030f, type: 3}
+  m_Name: Dish
+  m_EditorClassIdentifier: 
+  type: 1
+  ItemBuy: 30
+  ItemSell: 15
+  MaxStackValue: 3
+  stackable: 1
+  image: {fileID: -1341453810, guid: b4bf0ae874b2d9c428019d62ae2b5156, type: 3}
+  ItemName: Dish
+  description: An ornate pirate dish, adorned with intricate engravings and brimming
+    with exotic delicacies from far-off lands, it is said to bring fortune and adventure
+    to those who feast upon its contents.
+  AttackUp: 0
+  CrtUp: 0
+  EnFAtUPDOWN: 0
+  HealthUp: 0
+  EnergyUp: 0
+  ArmorUp: 0
+  LuckUP: 0
+  HungerUp: 50
+  ThirstUp: 0
