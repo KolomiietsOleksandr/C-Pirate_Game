@@ -914,7 +914,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -935,7 +935,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -943,6 +943,27 @@ TextureImporter:
       bones: []
       spriteID: c7e70c5dcad2708459f84ff7e69ed3d7
       internalID: -2104563623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Invetory icons_39
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 125
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab57252f425216840bd067e82443f2c5
+      internalID: -1543048876
       vertices: []
       indices: 
       edges: []
@@ -991,6 +1012,7 @@ TextureImporter:
       Invetory icons_36: -1679201978
       Invetory icons_37: -2104563623
       Invetory icons_38: -1861538407
+      Invetory icons_39: -1543048876
       Invetory icons_4: -1028114519
       Invetory icons_5: -1325551251
       Invetory icons_6: -513123013
