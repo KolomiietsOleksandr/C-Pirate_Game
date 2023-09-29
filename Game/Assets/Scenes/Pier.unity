@@ -7690,6 +7690,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -5555
       objectReference: {fileID: 0}
+    - target: {fileID: 7982443666064133286, guid: f7e3747a2c937f3468bb86785d0457c0, type: 3}
+      propertyPath: m_DrawMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7982443666064133287, guid: f7e3747a2c937f3468bb86785d0457c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19

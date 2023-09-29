@@ -4301,7 +4301,7 @@ MonoBehaviour:
   m_text: Shop
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 7004282762264850271, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5397,7 +5397,7 @@ MonoBehaviour:
   m_text: Buy / Sell
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 7004282762264850271, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7147,7 +7147,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7982443665777241963
 Transform:
   m_ObjectHideFlags: 0
@@ -10579,7 +10579,7 @@ MonoBehaviour:
   m_text: Map
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 7004282762264850271, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -10934,7 +10934,7 @@ MonoBehaviour:
   m_text: Quests
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 7004282762264850271, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12078,7 +12078,7 @@ MonoBehaviour:
   m_text: Vessels
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 7004282762264850271, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12727,7 +12727,7 @@ MonoBehaviour:
   m_text: Return
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 7004282762264850271, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14145,7 +14145,7 @@ MonoBehaviour:
     from the port? Take a look at my wares, and let's make a bargain.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 7004282762264850271, guid: ebabeb0500c2eae4eadca92d27b23126, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -14208,7 +14208,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &7982443666836162845
